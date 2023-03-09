@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "qt_library",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "qt_library::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qt_library-Debug-ba807bec64760673af82.json",
+					"name" : "qt_library",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qt_library_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qt_library_autogen-Debug-630a307ba10d3e8a02d6.json",
+					"name" : "qt_library_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qt_library_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qt_library_autogen_timestamp_deps-Debug-44112041501a9bf7ea9c.json",
+					"name" : "qt_library_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/hithe/projects/university-work/CS112/Assignments/build-qt_library-Desktop_Qt_6_4_2_MinGW_64_bit-Debug",
+		"source" : "C:/Users/hithe/projects/university-work/CS112/Assignments/qt_library"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

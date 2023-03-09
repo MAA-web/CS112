@@ -1,0 +1,2 @@
+please run the RUN_2022291_2022369_AS2.bat file to compile and run the program (It doesn't contain viruses ;) )
+if -std=c++23 does not work please remove it as this file was made with C++ 23 in mind.

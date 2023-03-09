@@ -1,0 +1,5 @@
+C:/Users/hithe/projects/university-work/CS112/Assignments/build-qt_library-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/CMakeFiles/qt_library.dir
+C:/Users/hithe/projects/university-work/CS112/Assignments/build-qt_library-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
+C:/Users/hithe/projects/university-work/CS112/Assignments/build-qt_library-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/hithe/projects/university-work/CS112/Assignments/build-qt_library-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/CMakeFiles/qt_library_autogen_timestamp_deps.dir
+C:/Users/hithe/projects/university-work/CS112/Assignments/build-qt_library-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/CMakeFiles/qt_library_autogen.dir
