@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Win32-ninja"
+	BuildStamp="20230326-1239-Experimental"
+	Name="DESKTOP-C9TNCI5"
+	Generator="ctest-3.26.1"
+	CompilerName="C:/msys64/mingw64/bin/g++.exe"
+	CompilerVersion="12.2.0"
+	OSName="Windows"
+	Hostname="DESKTOP-C9TNCI5"
+	OSRelease=" Professional"
+	OSVersion=" (Build 19045)"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="14"
+	ProcessorCacheSize="-1"
+	NumberOfLogicalCPU="4"
+	NumberOfPhysicalCPU="2"
+	TotalVirtualMemory="18695"
+	TotalPhysicalMemory="16263"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="2808"
+	>
+	<Testing>
+		<StartDateTime>Mar 26 17:39 Pakistan Standard Time</StartDateTime>
+		<StartTestTime>1679834361</StartTestTime>
+		<TestList/>
+		<EndDateTime>Mar 26 17:39 Pakistan Standard Time</EndDateTime>
+		<EndTestTime>1679834361</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

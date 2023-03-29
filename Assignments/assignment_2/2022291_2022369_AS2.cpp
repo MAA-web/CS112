@@ -25,7 +25,7 @@ namespace salted_potato {
     }
 }
 
-class Piece {//piece class
+class Piece {private: //piece class
     std::string Player;
     char thisPlayer_sym{};
     int LocationX{};
@@ -33,7 +33,6 @@ class Piece {//piece class
     bool isKing{};
 
 public:
-
     [[nodiscard]] bool get_Is_King() const { return this->isKing; }
     [[nodiscard]] int getX() const { return this->LocationX; }
     [[nodiscard]] int getY() const { return this->LocationY; }
