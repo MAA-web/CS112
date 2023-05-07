@@ -58,6 +58,7 @@ namespace CppCLRWinFormsProject {
 	private: System::Windows::Forms::TextBox^ output_textBox;
 	private: System::Windows::Forms::Button^ button1;
 
+
 	protected:
 
 	protected:
@@ -93,9 +94,12 @@ namespace CppCLRWinFormsProject {
 			// 
 			// input_file_button
 			// 
-			this->input_file_button->Location = System::Drawing::Point(348, 491);
+			this->input_file_button->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((System::Windows::Forms::AnchorStyles::Bottom | System::Windows::Forms::AnchorStyles::Left));
+			this->input_file_button->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 7.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->input_file_button->Location = System::Drawing::Point(320, 491);
 			this->input_file_button->Name = L"input_file_button";
-			this->input_file_button->Size = System::Drawing::Size(95, 27);
+			this->input_file_button->Size = System::Drawing::Size(115, 27);
 			this->input_file_button->TabIndex = 0;
 			this->input_file_button->Text = L"Select a file";
 			this->input_file_button->UseVisualStyleBackColor = true;
@@ -108,6 +112,8 @@ namespace CppCLRWinFormsProject {
 			// 
 			// input_textBox
 			// 
+			this->input_textBox->Anchor = static_cast<System::Windows::Forms::AnchorStyles>(((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Left)
+				| System::Windows::Forms::AnchorStyles::Right));
 			this->input_textBox->Location = System::Drawing::Point(12, 12);
 			this->input_textBox->Name = L"input_textBox";
 			this->input_textBox->Size = System::Drawing::Size(715, 22);
@@ -117,6 +123,14 @@ namespace CppCLRWinFormsProject {
 			// 
 			// input_richTextBox
 			// 
+			this->input_richTextBox->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
+				| System::Windows::Forms::AnchorStyles::Left)
+				| System::Windows::Forms::AnchorStyles::Right));
+			this->input_richTextBox->BackColor = System::Drawing::SystemColors::InfoText;
+			this->input_richTextBox->BorderStyle = System::Windows::Forms::BorderStyle::None;
+			this->input_richTextBox->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10.2F, System::Drawing::FontStyle::Regular,
+				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(0)));
+			this->input_richTextBox->ForeColor = System::Drawing::Color::Lime;
 			this->input_richTextBox->Location = System::Drawing::Point(12, 40);
 			this->input_richTextBox->Name = L"input_richTextBox";
 			this->input_richTextBox->Size = System::Drawing::Size(715, 445);
@@ -127,6 +141,13 @@ namespace CppCLRWinFormsProject {
 			// 
 			// output_richTextBox
 			// 
+			this->output_richTextBox->Anchor = static_cast<System::Windows::Forms::AnchorStyles>(((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
+				| System::Windows::Forms::AnchorStyles::Right));
+			this->output_richTextBox->BackColor = System::Drawing::Color::Black;
+			this->output_richTextBox->BorderStyle = System::Windows::Forms::BorderStyle::None;
+			this->output_richTextBox->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10.2F, System::Drawing::FontStyle::Regular,
+				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(0)));
+			this->output_richTextBox->ForeColor = System::Drawing::Color::Lime;
 			this->output_richTextBox->Location = System::Drawing::Point(747, 40);
 			this->output_richTextBox->Name = L"output_richTextBox";
 			this->output_richTextBox->Size = System::Drawing::Size(543, 445);
@@ -135,7 +156,10 @@ namespace CppCLRWinFormsProject {
 			// 
 			// compute_button
 			// 
-			this->compute_button->Location = System::Drawing::Point(1018, 495);
+			this->compute_button->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((System::Windows::Forms::AnchorStyles::Bottom | System::Windows::Forms::AnchorStyles::Right));
+			this->compute_button->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 7.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->compute_button->Location = System::Drawing::Point(999, 491);
 			this->compute_button->Name = L"compute_button";
 			this->compute_button->Size = System::Drawing::Size(87, 23);
 			this->compute_button->TabIndex = 4;
@@ -145,6 +169,7 @@ namespace CppCLRWinFormsProject {
 			// 
 			// output_textBox
 			// 
+			this->output_textBox->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Right));
 			this->output_textBox->Location = System::Drawing::Point(747, 12);
 			this->output_textBox->Name = L"output_textBox";
 			this->output_textBox->Size = System::Drawing::Size(543, 22);
@@ -153,6 +178,8 @@ namespace CppCLRWinFormsProject {
 			// 
 			// button1
 			// 
+			this->button1->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Right));
+			this->button1->ForeColor = System::Drawing::Color::Black;
 			this->button1->Location = System::Drawing::Point(1184, 12);
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(105, 23);
@@ -165,6 +192,7 @@ namespace CppCLRWinFormsProject {
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
+			this->BackColor = System::Drawing::Color::DimGray;
 			this->ClientSize = System::Drawing::Size(1302, 529);
 			this->Controls->Add(this->button1);
 			this->Controls->Add(this->output_textBox);
@@ -272,19 +300,24 @@ namespace CppCLRWinFormsProject {
 			   output_file << "example-" << number_of_polynomials << "x" << size_of_polynomials << "\n";
 
 			   string final{};
+
 			   const auto time1 = chrono::system_clock::now();
-			   for (int i = 0; i < number_of_polynomials; ++i) {
-				   int result_ = 0;
+			   int* result = new int[size_of_polynomials] {0};
+			   for (int i = 0; i < number_of_polynomials; ++i)
+			   {
 				   for (int j = 0; j < size_of_polynomials; ++j) {
-					   result_ += *(polynomial_in_int + i * size_of_polynomials + j) * j;
+					   *(result + j) += *(polynomial_in_int + i * size_of_polynomials + j);
 				   }
-				   out_res += to_string(result_) + " ";
-				   output_file << result_ << " ";
+				   
 			   }
-			   //output_file << final;
 			   const auto time2 = chrono::system_clock::now();
 			   const auto TotalTime = chrono::duration_cast<chrono::milliseconds>(time2 - time1);
 			   const auto TotalTime_in_nanoseconds = chrono::duration_cast<chrono::nanoseconds>(time2 - time1);
+
+			   for (int i = 0; i < size_of_polynomials; ++i) {
+				   out_res += to_string(*(result + i)) + " ";
+				   output_file << *(result + i) << " ";
+			   }
 
 			   output_file.close();
 
@@ -293,7 +326,7 @@ namespace CppCLRWinFormsProject {
 			   other_info += "Total time taken for addition in nanoseconds: " + to_string(TotalTime_in_nanoseconds.count()) + *"\n";
 			   other_info += "A 2D array is used to represent the whole file.";
 			   other_info += "\n";
-			   other_info += "number of zeros: " + to_string(number_of_zeros) + "\n\nOutput file\n";
+			   other_info += "number of zeros: " + to_string(number_of_zeros) + "\n\n\t\t\tOUTPUT FILE\n\n";
 			   other_info += "example-" + to_string(number_of_polynomials) + "x" + to_string(size_of_polynomials) + "\n";
 			   other_info += out_res + "\n";
 			   return other_info;
@@ -307,82 +340,8 @@ namespace CppCLRWinFormsProject {
 
 
 private: System::Void compute_button_Click(System::Object^ sender, System::EventArgs^ e) {
-	
 	String^ output_str = gcnew String(Computing().c_str());
 	this->output_richTextBox->Text = output_str;
-	/*
-	string computing() {
-		std::fstream file;
-		std::string src1;
-
-		int number_of_zeros{0};
-		int number_of_polynomials{};
-		int size_of_polynomials{};
-
-		string input_file_name;
-		
-		getline(cin, input_file_name);
-		file.open(toStandardString(this->openFileDialog1->FileName), ios::in);
-		file>>number_of_polynomials;
-		file>>size_of_polynomials;
-
-		char polynomial[number_of_polynomials][size_of_polynomials];
-		int result[number_of_polynomials];
-		int polynomial_in_int[number_of_polynomials][size_of_polynomials];
-		for (int i = 0; i < number_of_polynomials; ++i) {
-			for (int j = 0; j < size_of_polynomials; ++j) {
-				file >> polynomial[i][j];
-			}
-		}
-		file.close();
-
-		for (int i = 0; i < number_of_polynomials; ++i) {
-			for (int j = 0; j < size_of_polynomials; ++j) {
-				if ((int)polynomial[i][j] == 48) { polynomial_in_int[i][j] = 0; number_of_zeros++; }
-				if ((int)polynomial[i][j] == 49)polynomial_in_int[i][j] = 1;
-			}
-		}
-
-		std::string output_file_name = "result_addition-";
-		output_file_name += std::to_string(number_of_polynomials) + "x" + to_string(size_of_polynomials) + ".txt";
-
-		std::fstream output_file(output_file_name, ios::out);
-
-		std::string out_res;
-		std::string other_info;
-		other_info += "example-" + to_string(number_of_polynomials) + "x" + to_string(size_of_polynomials) + "\n";
-		other_info += "number of polynomials: " + to_string(number_of_polynomials) + "\n";
-		cout << "number of variables: " << to_string(size_of_polynomials) + "\n";
-
-		output_file << "example-" << number_of_polynomials << "x" << size_of_polynomials << "\n";
-
-		const auto time1 = chrono::system_clock::now();
-		
-		for (int i = 0; i < number_of_polynomials; ++i) {
-			int result_ = 0;
-			for (int j = 0; j < size_of_polynomials; ++j) {
-				result_ += polynomial_in_int[i][j] * j;
-			}
-			out_res += to_string(result_) + " ";
-			output_file << result_ << " ";
-		}
-		
-		const auto time2 = chrono::system_clock::now();
-		const auto TotalTime = chrono::duration_cast<chrono::milliseconds>(time2 - time1);
-		const auto TotalTime_in_nanoseconds = chrono::duration_cast<chrono::nanoseconds>(time2 - time1);
-
-		output_file.close();
-
-		//other_info += out_res + "\n";
-		other_info += "Total time taken for addition in milliseconds: " + to_string(TotalTime) + "\n";
-		other_info += "Total time taken for addition in nanoseconds: " << to¨_string(TotalTime_in_nanoseconds) + "\n";
-		other_info += "A 2D array is used to represent the whole file." + "\n";
-		other_info += "number of zeros: " << to_string(number_of_zeros) + "\n";
-		other_info += "example-" + to_string(number_of_polynomials) + "x" + to_string(size_of_polynomials) + "\n";
-		other_info += out_res + "\n";
-		return other_info;
-	}
-	   */
 }
 private: System::Void button1_Click_1(System::Object^ sender, System::EventArgs^ e) {
 	this->folderBrowserDialog1->ShowDialog();

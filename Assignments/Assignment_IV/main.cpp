@@ -20,7 +20,7 @@ int main() {
     file>>number_of_polynomials;
     file>>size_of_polynomials;
     char polynomial[number_of_polynomials][size_of_polynomials];
-    int result[number_of_polynomials];
+    //int result[number_of_polynomials];
     int polynomial_in_int[number_of_polynomials][size_of_polynomials];
     int iterator{};
     /*while( getline(file, src1)){
@@ -64,24 +64,42 @@ int main() {
         cout<<endl;
     }*/
     const auto time1 = chrono::system_clock::now();
-    for (int i = 0; i < number_of_polynomials; ++i) {
+    /*for (int i = 0; i < number_of_polynomials; ++i) {
         int result_ = 0;
         for (int j = 0; j < size_of_polynomials; ++j) {
             result_ += polynomial_in_int[i][j] * j;
         }
         out_res += to_string(result_) + " ";
         output_file<<result_<<" ";
+    }*/
+
+    int result[size_of_polynomials];
+    for (int i = 0; i < size_of_polynomials; ++i) {
+        result[i] = 0;
     }
+    for (int i = 0; i < number_of_polynomials; ++i)
+    {
+        for (int j = 0; j < size_of_polynomials; ++j) {
+            result[j] += polynomial_in_int[i][j];
+        }
+    }
+    for (int i = 0; i < size_of_polynomials; ++i) {
+        out_res += to_string(result[i]) + " ";
+    }
+    //out_res += to_string(*result) + " ";
+    //output_file << result << " ";
+
+
     output_file.close();
     const auto time2 = chrono::system_clock::now();
     const auto TotalTime = chrono::duration_cast<chrono::milliseconds>(time2 - time1);
     const auto TotalTime_in_nanoseconds = chrono::duration_cast<chrono::nanoseconds>(time2 - time1);
 
     cout<<out_res<<endl;
-    cout<<"Total time taken for addition in milliseconds: "<<TotalTime<<endl;
-    cout<<"Total time taken for addition in nanoseconds: "<<TotalTime_in_nanoseconds<<endl;
-    cout<<"A 2D array is used to represent the whole file."<<endl;
+    //cout<<"Total time taken for addition in milliseconds: "<<TotalTime<<endl;
+    //cout<<"Total time taken for addition in nanoseconds: "<<TotalTime_in_nanoseconds<<endl;
+    //cout<<"A 2D array is used to represent the whole file."<<endl;
     cout<<"number of zeros: "<<number_of_zeros<<endl;
-    output_file<<"example-"<<number_of_polynomials<<"x"<<size_of_polynomials<<"\n";
+    //output_file<<"example-"<<number_of_polynomials<<"x"<<size_of_polynomials<<"\n";
     return 0;
 }
