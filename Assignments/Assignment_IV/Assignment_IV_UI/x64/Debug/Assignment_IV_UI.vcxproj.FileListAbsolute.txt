@@ -1,0 +1,5 @@
+C:\Users\hithe\projects\university-work\CS112\Assignments\Assignment_IV\Assignment_IV_UI\x64\Debug\Assignment_IV_UI.vcxproj.AssemblyReference.cache
+C:\Users\hithe\projects\university-work\CS112\Assignments\Assignment_IV\Assignment_IV_UI\x64\Debug\Assignment_IV_UI.vcxproj.SuggestedBindingRedirects.cache
+C:\Users\hithe\projects\university-work\CS112\Assignments\Assignment_IV\Assignment_IV_UI\x64\Debug\Assignment_IV_UI.Form1.resources
+C:\Users\hithe\projects\university-work\CS112\Assignments\Assignment_IV\Assignment_IV_UI\x64\Debug\Assignment_IV_UI.vcxproj.GenerateResource.cache
+C:\Users\hithe\projects\university-work\CS112\Assignments\Assignment_IV\Assignment_IV_UI\x64\Debug\Assignment_IV_UI.exe

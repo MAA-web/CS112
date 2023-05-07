@@ -63,8 +63,8 @@ UpdateOptions:
 UpdateType: 
 
 # Compiler info
-Compiler: C:/msys64/mingw64/bin/g++.exe
-CompilerVersion: 12.2.0
+Compiler: C:/Program Files/LLVM/bin/clang++.exe
+CompilerVersion: 16.0.0
 
 # Dynamic analysis (MemCheck)
 PurifyCommand: 

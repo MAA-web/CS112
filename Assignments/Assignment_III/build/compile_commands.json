@@ -1,0 +1,7 @@
+[
+{
+  "directory": "C:/Users/hithe/projects/university-work/CS112/Assignments/Assignment_III/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=gnu++2b -o CMakeFiles\\Assignment_III.dir\\main.cpp.obj -c C:\\Users\\hithe\\projects\\university-work\\CS112\\Assignments\\Assignment_III\\main.cpp",
+  "file": "C:\\Users\\hithe\\projects\\university-work\\CS112\\Assignments\\Assignment_III\\main.cpp"
+}
+]

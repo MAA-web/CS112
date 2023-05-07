@@ -1,0 +1,3 @@
+C:/Users/hithe/projects/university-work/CS112/Assignments/Assignment_IV/cmake-build-debug/CMakeFiles/Assignment_IV.dir
+C:/Users/hithe/projects/university-work/CS112/Assignments/Assignment_IV/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/hithe/projects/university-work/CS112/Assignments/Assignment_IV/cmake-build-debug/CMakeFiles/rebuild_cache.dir
