@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeSharedSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Custom_CMake_Clang" ENABLED="true" CONFIG_NAME="Debug" TOOLCHAIN_NAME="System_clang_custom" />
+    </configurations>
+  </component>
+</project>

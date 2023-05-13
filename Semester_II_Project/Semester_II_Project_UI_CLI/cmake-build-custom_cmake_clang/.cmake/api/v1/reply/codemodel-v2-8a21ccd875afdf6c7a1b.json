@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Semester_II_Project_UI_CLI",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Semester_II_Project_UI_CLI::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Semester_II_Project_UI_CLI-Debug-0e6bfeb71299caf24a47.json",
+					"name" : "Semester_II_Project_UI_CLI",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/hithe/projects/university-work/CS112/Semester_II_Project/Semester_II_Project_UI_CLI/cmake-build-custom_cmake_clang",
+		"source" : "C:/Users/hithe/projects/university-work/CS112/Semester_II_Project/Semester_II_Project_UI_CLI"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

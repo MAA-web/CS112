@@ -1,0 +1,3 @@
+C:/Users/hithe/projects/university-work/CS112/tetris/CMakeFiles/tetris.dir
+C:/Users/hithe/projects/university-work/CS112/tetris/CMakeFiles/ALL_BUILD.dir
+C:/Users/hithe/projects/university-work/CS112/tetris/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,5 @@
+C:\Users\hithe\projects\university-work\CS112\Semester_II_Project\Semester_II_Project_UI_VS\x64\Debug\Semester_II_Project_UI_VS.vcxproj.AssemblyReference.cache
+C:\Users\hithe\projects\university-work\CS112\Semester_II_Project\Semester_II_Project_UI_VS\x64\Debug\Semester_II_Project_UI_VS.vcxproj.SuggestedBindingRedirects.cache
+C:\Users\hithe\projects\university-work\CS112\Semester_II_Project\Semester_II_Project_UI_VS\x64\Debug\Semester_II_Project_UI_VS.Form1.resources
+C:\Users\hithe\projects\university-work\CS112\Semester_II_Project\Semester_II_Project_UI_VS\x64\Debug\Semester_II_Project_UI_VS.vcxproj.GenerateResource.cache
+C:\Users\hithe\projects\university-work\CS112\Semester_II_Project\Semester_II_Project_UI_VS\x64\Debug\Semester_II_Project_UI_VS.exe
