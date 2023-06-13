@@ -1,2 +1,6 @@
-﻿  AssemblyInfo.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
-  Semester_II_Project_UI_VS.vcxproj -> C:\Users\hithe\projects\university-work\CS112\Semester_II_Project\Semester_II_Project_UI_VS\x64\Debug\Semester_II_Project_UI_VS.exe
+﻿  CppCLR_WinFormsProject.cpp
+C:\Users\hithe\projects\university-work\CS112\Semester_II_Project\Semester_II_Project_UI_VS\Form1.h(340,29): error C3673: 'System::ComponentModel::BackgroundWorker': class does not have a copy-constructor
+C:\Users\hithe\projects\university-work\CS112\Semester_II_Project\Semester_II_Project_UI_VS\Form1.h(340,38): error C2146: syntax error: missing ';' before identifier 'as'
+C:\Users\hithe\projects\university-work\CS112\Semester_II_Project\Semester_II_Project_UI_VS\Form1.h(340,38): error C2065: 'as': undeclared identifier
+C:\Users\hithe\projects\university-work\CS112\Semester_II_Project\Semester_II_Project_UI_VS\Form1.h(340,41): error C2146: syntax error: missing ';' before identifier 'BackgroundWorker'
+C:\Users\hithe\projects\university-work\CS112\Semester_II_Project\Semester_II_Project_UI_VS\Form1.h(340,1): warning C4091: '': ignored on left of 'System::ComponentModel::BackgroundWorker' when no variable is declared

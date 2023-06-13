@@ -1,0 +1,2 @@
+Reg#,Courses,Score,Program,Sem,Year
+0,CS-101,89,CS,Fall,1994

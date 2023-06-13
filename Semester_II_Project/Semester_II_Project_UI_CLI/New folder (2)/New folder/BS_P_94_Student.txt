@@ -1,0 +1,2 @@
+Reg#,Name,Father,Address,Date of Birth,lastDeg,Reg Date,Reg Status,Deg Status
+0,Midhat Azhar Durrani,Azhar Durrani,H# 447 St. # 5  Air port coloney PSH,14-4-74,A-Level,26-8-94,A,C

@@ -1,0 +1,2 @@
+SID,St_Name,Father_Name,Gender,Address,Date of Birth,Reg Date,Reg Status,Degree Status,Last Degree
+0,Hafiz Viqar-ul-Islam Chohan,Raja Sharif Chohan,0,House #  855 St. #  37 Shuakat coloney Bahawalpur,11-Apr-74,10-Aug-94,A,C,FSc
